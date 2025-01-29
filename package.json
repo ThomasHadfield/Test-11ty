@@ -1,0 +1,24 @@
+{
+  "name": "test-11ty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy -- serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasHadfield/Test-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasHadfield/Test-11ty/issues"
+  },
+  "homepage": "https://github.com/ThomasHadfield/Test-11ty#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
