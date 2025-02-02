@@ -1,0 +1,223 @@
+// BREAKPOINTS
+
+
+
+
+@media (min-width: 200px){
+
+    // body{
+    //     background: yellow;
+    // }
+
+    .cursor{
+        display: none;
+    }
+
+    // TYPOGRAPHY
+
+    h2{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+
+    // GLOBAL
+
+    .small-text-wrap{
+        margin-bottom: 4px;
+    }
+
+
+
+    // Index Header
+
+    .bio-wrap p{
+        grid-column: 1 / span 10;
+    }
+
+    // Project Section
+
+    .project{
+        width: 100%;
+    }
+
+    // Footer
+
+    .footer-content-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-left-first{
+        margin-right: 0px;
+    }
+    
+    .footer-content-right{
+        width: 100%;
+    }
+
+
+
+
+
+    // PROJECT PAGE
+
+    // Project Info
+
+    .project-info{
+        margin-top: 250px;
+    }
+
+    .project-name-wrap{
+        width: 90%;
+    }
+
+    .project-details-wrap{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    // Two Column Layout
+
+    // .two-col{
+    //     width: 100%;
+    // }
+
+
+    // Three Column Layout
+
+    .three-col{
+        width: 100%;
+    }
+    
+
+}
+
+
+
+
+
+
+@media (min-width: 600px){
+
+    // body{
+    //     background: orange;
+    // }
+
+    // INDEX
+
+    .bio-wrap p{
+        grid-column: 7 / span 6;
+    }
+
+
+    // Project Section
+
+    .project{
+        width: 100%;
+    }
+
+    // Footer
+
+    .footer-content-left{
+        width: 80%;
+        margin-bottom: 0px;
+    }
+
+    .footer-left-first{
+        margin-right: 20px;
+    }
+    
+    .footer-content-right{
+        width: 20%;
+    }
+
+
+
+    // PROJECT PAGE
+
+    // Two Column Layout
+
+    .two-col{
+        width: calc(50% - 5px);
+    }
+
+
+    // Three Column Layout
+
+    .three-col{
+        width: calc(50% - 5px);
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 750px){
+
+    // body{
+    //     background: greenyellow;
+    // }
+
+
+    
+    // Project Section
+
+    .project{
+        width: calc(50% - 5px);
+    }
+
+
+    // Footer
+
+    .footer-content-left{
+        width: 70%;
+    }
+    
+    .footer-content-right{
+        width: 30%;
+    }
+
+
+
+
+    // PROJECT PAGE
+
+    // Project Info
+
+    .project-info{
+        margin-top: 330px;
+    }
+
+    .project-name-wrap{
+        width: 50%;
+    }
+
+    .project-details-wrap{
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    // Two Column Layout
+
+    .two-col{
+        width: calc(50% - 5px);
+    }
+
+
+    // Three Column Layout
+
+    .three-col{
+        width: calc(33% - 1.5px);
+    }
+
+}
+

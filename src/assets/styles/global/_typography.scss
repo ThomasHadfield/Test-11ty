@@ -1,0 +1,49 @@
+// FONTS
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+// Typography
+
+h1, 
+h2, 
+.h2-reg, 
+h3 {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    margin:0;
+    font-size: 1.6rem;
+    line-height: 90%;
+}
+
+p, 
+.page-index, 
+.intro-links,
+.intro-bio, 
+.project-credits {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+a{
+    color: blue;
+    margin: 0;
+}
+
+.link-hover{
+    transition: 300ms;
+}
+
+.link-hover:hover{
+    opacity: 45%;
+}
