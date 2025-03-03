@@ -15,9 +15,9 @@ collections:
     - { label: "Tag", name: "tag", widget: "list", default: ["project"] }
     - { label: "Title", name: "title", widget: "string" }
     - { label: "Subject", name: "subject", widget: "string" }
-    - { label: "Description", name: "description", widget: "string" }
+    - { label: "Description", name: "description", widget: "markdown" }
     - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD" }
-    - { label: "Hero Image", name: "heroImage", widget: "image" }
+    - { label: "Hero Image", name: "heroImage", widget: "markdown" }
     - { label: "Hero Image Alt", name: "heroImageAlt", widget: "string" }
     - { label: "Website", name: "website", widget: "string" }
     - { label: 'Project Images', name: 'body', widget: 'markdown' }
