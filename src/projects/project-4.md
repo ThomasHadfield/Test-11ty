@@ -1,6 +1,6 @@
 ---
 layout: layouts/base-project.njk
-projectTemplate: 5
+projectTemplate: 4
 tag: project
 title: Localcoin
 subject: branding, website
@@ -12,7 +12,7 @@ description: Monica is an interior designer from Toronto, Canada. A simple brand
   modular and can be adapted to whatever medium she uses them in. A custom
   website was created to help best showcase her work and to make sure she has a
   strong brand image on the web.
-date: 2025-01-05
+date: 2025-01-04
 heroImage: /assets/images/localcoin_casestudy_cover.jpg
 heroImageAlt: modern brand collateral for monica beckett, showcasing her logo on
   letterhead and pink business card
