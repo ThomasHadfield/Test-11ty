@@ -1,0 +1,25 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+    margin-bottom: 160px;
+}
+
+.header-content-1{
+    grid-column: 1 / span 4;
+}
+
+.header-content-2{
+    display: grid;
+    grid-column: 5 / span 4;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+}
+
+.header-content-2 h2{
+    grid-column: 1 / span 2;
+}
+
+.header-content-2 .current-time{
+    grid-column: 3 / span 2; 
+}

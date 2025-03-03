@@ -1,0 +1,57 @@
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+h1, 
+h2, 
+.h2-reg {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: #7A7A7C;
+    font-style: normal;
+    text-transform: uppercase;
+    margin:0;
+    font-size: 1.6rem;
+    line-height: 90%;
+}
+ 
+h3 {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #7A7A7C;
+    font-style: normal;
+    text-transform: capitalize;
+    margin:0;
+    font-size: 1.6rem;
+    line-height: 90%;
+}
+
+p {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #7A7A7C;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+a{
+    color: #7A7A7C;
+    margin: 0;
+}
+
+a:hover{
+    color: blue;
+}
+
+.project-name,
+.project-subject,
+footer {
+    text-transform: capitalize;
+}

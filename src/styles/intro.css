@@ -1,0 +1,38 @@
+.section-intro{
+    margin-bottom: 140px;
+}
+
+.page-index{
+    grid-column: 1 / span 4;
+    text-transform: lowercase;
+}
+
+.section-intro-content,
+.section-intro-content-2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+    border-top: solid 0.5px #7A7A7C;
+    padding-top: 4px;
+}
+
+.intro-first{
+    margin-bottom: 40px;
+}
+
+.intro-cont-wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    grid-column: 1 / span 4;
+}
+
+.project-title{
+    grid-column: 1 / span 2;
+}
+
+.intro-bio,
+.intro-desc{
+    grid-column: 5 / span 4;
+    text-indent: 80px;
+}

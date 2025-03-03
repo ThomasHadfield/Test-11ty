@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Thomas Hadfield">
+        <meta name="description" content="Thomas Hadfield is a Canadian multidisciplinary graphic designer living and working in Toronto.">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+
+        <!-- FONT LINKS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">  
+
+        <title>Thomas Hadfield – {{ title }}</title>
+
+    </head>
+
+
+
+    <body>
+
+        <div class="wrapper">
+            
+            {% include "layouts/header.njk" %}
+            {% include "layouts/intro-project.njk" %}
+            <!-- PORTFOLIO -->
+            <section class="case-study">
+                
+                {{ content | safe }}   
+
+            </section>
+            {% include "layouts/footer.njk" %}
+
+        </div>
+
+
+
+        <!-- CURSOR -->
+        <div class="cursor"></div>
+
+
+        <!-- Linked JS Files -->
+        <script type="text/javascript" src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" referrerpolicy="no-referrer"></script> 
+
+        <script type="text/javascript" src="https://moment.github.io/luxon/global/luxon.min.js" referrerpolicy="no-referrer"></script>
+
+        <script type="text/javascript" src="/scripts/script.js" referrerpolicy="no-referrer"></script>
+
+    </body>
+
+</html>
