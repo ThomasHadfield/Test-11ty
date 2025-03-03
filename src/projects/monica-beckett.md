@@ -1,23 +1,23 @@
 ---
 layout: layouts/base-project.njk
-tag: project
-date: 2025-01-02
-
 projectTemplate: 2
-
+tag: project
 title: Monica Beckett
 subject: branding
-
+description: Monica is an interior designer from Toronto, Canada. A simple brand
+  identity was created to live beside and help showcase her work when being
+  presented within her portfolio. The new brand suits her clean style and
+  approach to interior design, where she trys to create spaces that engage and
+  incite interaction from its users. The logotype and layouts created are
+  modular and can be adapted to whatever medium she uses them in. A custom
+  website was created to help best showcase her work and to make sure she has a
+  strong brand image on the web.
+date: 2025-01-02
 heroImage: /assets/images/monica/monica-byTH-image-hero.jpg
-heroImageAlt: modern brand collateral for monica beckett, showcasing her logo on letterhead and pink business card
-
-description: Monica is an interior designer from Toronto, Canada. A simple brand identity was created to live beside and help showcase her work when being presented within her portfolio. The new brand suits her clean style and approach to interior design, where she trys to create spaces that engage and incite interaction from its users. The logotype and layouts created are modular and can be adapted to whatever medium she uses them in. A custom website was created to help best showcase her work and to make sure she has a strong brand image on the web. 
-
+heroImageAlt: modern brand collateral for monica beckett, showcasing her logo on
+  letterhead and pink business card
 website: https://monicabeckett.ca
-
 ---
-
-
 <img src="/assets/images/monica/monica-byTH-image-1.png" alt="Lorem Ipsum">
 
 <img src="/assets/images/monica/monica-byTH-image-2.png" alt="Lorem Ipsum">
