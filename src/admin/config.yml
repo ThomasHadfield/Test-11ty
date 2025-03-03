@@ -6,7 +6,7 @@ public_folder: "/assets/images/"
 collections:
 - name: "projects"
   label: "Projects"
-  folder: "_src/projects"
+  folder: "src/projects"
   create: true
   slug: "{{slug}}"
   fields: # The fields for each document, usually in front matter
