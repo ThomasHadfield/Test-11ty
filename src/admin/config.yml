@@ -16,8 +16,13 @@ collections:
     - { label: "Title", name: "title", widget: "string" }
     - { label: "Subject", name: "subject", widget: "string" }
     - { label: "Description", name: "description", widget: "string" }
-    - { label: "Date", name: "date", widget: "datetime" }
+    - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD" }
     - { label: "Hero Image", name: "heroImage", widget: "image" }
     - { label: "Hero Image Alt", name: "heroImageAlt", widget: "string" }
     - { label: "Website", name: "website", widget: "string" }
-    - { label: "Body", name: "body", widget: "image" }
+    - label: "Body"
+      name: "body"
+      widget: "image"
+      media_library:
+        config: 
+          multiple: true
