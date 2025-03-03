@@ -18,4 +18,4 @@ heroImageAlt: modern brand collateral for monica beckett, showcasing her logo on
   letterhead and pink business card
 website: https://monicabeckett.ca
 ---
-/assets/images/monica-byth-image-2.png
+/assets/images/monica/monica-byth-image-2.png
