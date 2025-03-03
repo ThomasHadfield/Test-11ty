@@ -3,7 +3,7 @@ layout: layouts/base-project.njk
 projectTemplate: 3
 tag: project
 title: Alphabyte
-subject: brnd identity
+subject: brand identity
 description: Monica is an interior designer from Toronto, Canada. A simple brand
   identity was created to live beside and help showcase her work when being
   presented within her portfolio. The new brand suits her clean style and
