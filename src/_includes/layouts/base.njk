@@ -41,6 +41,18 @@
 
 
         <!-- Linked JS Files -->
+        <script>
+            if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", (user) => {
+                    if (!user) {
+                        window.netlifyIdentity.on("login", () => {
+                            document.location.href = "/admin/";
+                        });
+                    }
+                });
+            }
+        </script>
+
         <script type="text/javascript" src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" referrerpolicy="no-referrer"></script> 
 
         <script type="text/javascript" src="https://moment.github.io/luxon/global/luxon.min.js" referrerpolicy="no-referrer"></script>
@@ -48,18 +60,6 @@
         <script type="text/javascript" src="/scripts/script.js" referrerpolicy="no-referrer"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <script>
-            if (window.netlifyIdentity) {
-                window.netlifyIdentity.on("init", (user) => {
-                if (!user) {
-                    window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                    });
-                }
-                });
-            }
-         </script>
 
     </body>
 
