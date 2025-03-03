@@ -41,9 +41,3 @@ website: https://monicabeckett.ca
 <video src="/assets/images/monica/monica-byTH-image-10.mp4" type="video/mp4" autoplay loop></video>
 
 <img src="/assets/images/monica/monica-byTH-image-11.jpg" alt="Lorem Ipsum">
-
-![](/assets/images/monica-byth-image-2.png)
-
-![](/assets/images/monica-byth-image-3.png)
-
-![](/assets/images/monica-byth-image-8.jpg)
