@@ -20,9 +20,4 @@ collections:
     - { label: "Hero Image", name: "heroImage", widget: "image" }
     - { label: "Hero Image Alt", name: "heroImageAlt", widget: "string" }
     - { label: "Website", name: "website", widget: "string" }
-    - label: "Body"
-      name: "body"
-      widget: "image"
-      media_library:
-        config: 
-          multiple: true
+    - { label: 'Project Images', name: 'body', widget: 'markdown' }
