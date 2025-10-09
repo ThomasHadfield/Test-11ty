@@ -1,0 +1,46 @@
+
+/* PAGE INTRO */
+
+.intro{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+    padding-top: 20px;
+    height: 540px;
+}
+
+.intro-links-wrap{
+    grid-column: 1 / span 2;  
+}
+
+.intro-bio-wrap{
+    grid-column: 5 / span 4;
+}
+
+
+
+
+/* PROJECT INFO */
+
+.project-info{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+    background: yellow;
+    margin-bottom: 60px;
+}
+
+.intro-cont-wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    grid-column: 1 / span 4;
+}
+
+.project-title{
+    grid-column: 1 / span 2;
+}
+
+.intro-desc{
+    grid-column: span 4;
+}

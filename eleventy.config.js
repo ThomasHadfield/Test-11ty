@@ -1,17 +1,4 @@
 
-//IMAGE
-
-const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-
-module.exports = function (eleventyConfig) {
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
-};
-
-
-
-
-
-
 // CONFIG
 
 module.exports = function (eleventyConfig) {

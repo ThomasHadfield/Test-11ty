@@ -1,0 +1,27 @@
+
+
+.case-study img{
+    padding-bottom: 10px;
+}
+
+.case-study video{
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.two-col{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+}
+
+.two-col img,
+.two-col video{
+    grid-column: span 4;
+}
+
+.two-col video{
+    width: 100%;
+    height: auto;
+}

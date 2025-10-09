@@ -3,9 +3,7 @@ layout: layouts/base.njk
 
 title: Thomas Hadfield
 
-bio: I'm a Canadian graphic designer currently living in the Netherlands. Throughout my career I've been fortunate enough to work on a diverse range of design  projects. My approach to design is heavily influenced by the Brutalist  style, characterized by bold, utilitarian aesthetics that focus on functionality and purpose.
-
-currentJob: freelancing @ Studio Dumbar
+bio: I’m a graphic designer from Toronto, Canada. After building my career in Toronto’s design industry, I moved to Europe at the end of 2024 to expand my perspective on life and my design practise.
 
 ---
 
@@ -17,15 +15,15 @@ currentJob: freelancing @ Studio Dumbar
                 <!-- PROJECTS -->
                 
                 {%- for project in collections.project -%}
-                    <section class="project-{{ project.data.projectTemplate }}">
+                    <section class="project">
 
                         <a class="project-link" href=" {{ project.url }}">
                             <div class="project-image-wrap">
-                                <img src=" {{ project.data.heroImage }} " alt=" {{ project.data.heroImageAlt }}">    
+                                <img src=" {{ project.data.heroImage }} " alt=" {{ project.data.heroImageAlt }} ">    
                             </div>
                         </a>
 
-                        <div class="project-title-wrap-{{ project.data.projectTemplate }}">
+                        <div class="project-title-wrap">
                             <p class="project-name"> {{ project.data.title }} </p>
                             <p class="project-subject"> [{{ project.data.subject }}] </p>
                         </div>

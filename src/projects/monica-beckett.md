@@ -1,6 +1,5 @@
 ---
 layout: layouts/base-project.njk
-projectTemplate: 2
 tag: project
 title: Monica Beckett
 subject: branding
@@ -18,6 +17,11 @@ heroImageAlt: modern brand collateral for monica beckett, showcasing her logo on
   letterhead and pink business card
 website: https://monicabeckett.ca
 ---
+
+
+
+
+
 <img src="/assets/images/monica/monica-byTH-image-1.png" alt="Lorem Ipsum">
 
 <img src="/assets/images/monica/monica-byTH-image-2.png" alt="Lorem Ipsum">

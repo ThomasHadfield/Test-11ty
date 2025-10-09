@@ -1,0 +1,52 @@
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 10px;
+}
+
+/* PROJECT */
+.project{
+    grid-column: span 4;
+    margin-bottom: 60px;
+}
+
+
+.project-link{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+
+
+
+/* IMAGE */
+.project-image-wrap{
+    overflow: hidden;
+    padding: 0;
+}
+
+.project-image-wrap img{
+    transition: 0.8s;
+}
+
+.project-image-wrap:hover img{
+    transform: scale(1.04);
+    filter: grayscale(1);
+}
+
+
+
+
+/* TEXT */
+.project-title-wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+.project-name{
+    grid-column: 1 / span 2;
+}
