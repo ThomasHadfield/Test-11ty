@@ -1,0 +1,19 @@
+.experiments{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    position: relative;
+}
+
+
+.exp-img,
+.exp-vid{
+    grid-column: span 3;
+}
+
+.exp-vid{
+    display: block; /* Remove inline spacing */
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}

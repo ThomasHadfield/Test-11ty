@@ -5,7 +5,9 @@
 @import "typography.css";
 @import "header.css";
 @import "index-projects.css";
+@import "experiments.css";
 @import "case-study.css";
+@import "about.css";
 @import "footer.css";
 
 
@@ -68,15 +70,19 @@ li{
 
 
 
-/* BREAKPOINTS */
+
+
+
+/* BREAKPOINTS START */
+
 
 
 
 @media (max-width: 750px){
 
-    /* body{
+    body{
         background: lightblue;
-    } */
+    }
 
 
     /* FOOTER */
@@ -110,6 +116,28 @@ li{
     .project{
         margin-bottom: 40px;
     }
+
+
+
+
+
+    /* ABOUT */
+
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+
+
+
+    /* EXPERIMENTS */
+
+    .exp-img,
+    .exp-vid{
+        grid-column: span 4;
+    }
     
 
 }
@@ -136,10 +164,6 @@ li{
 
 
     /* INTRO */
-
-    .intro{
-        height: 75vh;
-    }
 
     .intro-links-wrap{
         grid-column: 1 / span 8; 
@@ -173,7 +197,7 @@ li{
 
     /* INTRO */
 
-    .section-intro-content-2 {
+    .project-info{
         display: flex;
         flex-direction: column;
         row-gap: 60px;
@@ -189,8 +213,16 @@ li{
         grid-column: span 4;
     }
 
-    
 
+
+
+    /* EXPERIMENTS */
+
+    .exp-img,
+    .exp-vid{
+        grid-column: span 6;
+    }
+    
 }
 
 

@@ -10,22 +10,21 @@ bio: I’m a graphic designer from Toronto, Canada. After building my career in 
 
 
             <!-- PORTFOLIO -->
-            <main id="top" class="portfolio">
+            <main class="portfolio">
 
                 <!-- PROJECTS -->
-                
                 {%- for project in collections.project -%}
                     <section class="project">
 
                         <a class="project-link" href=" {{ project.url }}">
                             <div class="project-image-wrap">
-                                <img src=" {{ project.data.heroImage }} " alt=" {{ project.data.heroImageAlt }} ">    
+                                <img loading="lazy" src=" {{ project.data.heroImage }} " alt=" {{ project.data.heroImageAlt }} ">    
                             </div>
                         </a>
 
                         <div class="project-title-wrap">
-                            <p class="project-name"> {{ project.data.title }} </p>
-                            <p class="project-subject"> [{{ project.data.subject }}] </p>
+                            <p class="project-name"> {{ project.data.title }}, </p>
+                            <p class="project-subject">{{ project.data.subject }}</p>
                         </div>
                     </section>
                 {%- endfor -%}

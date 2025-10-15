@@ -1,3 +1,7 @@
+
+
+/* FOOTER */
+
 footer{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -29,4 +33,14 @@ footer{
 
 .top-btn{
     text-align: right;
+}
+
+
+
+/* PRE FOOTER */
+
+.pre-footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
 }

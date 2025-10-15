@@ -1,9 +1,22 @@
+
+
 /* PAGE HEADER */
+
+header{
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+    mix-blend-mode: difference;
+}
 
 .header-wrap{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     column-gap: 10px;
+}
+
+.header-home-btn{
+    text-decoration: none;
 }
 
 .header-left{
@@ -31,7 +44,7 @@
 
 .intro{
     padding-top: 20px;
-    height: 60vh;
+    height: 50vh;
 }
 
 .intro-home{
@@ -47,7 +60,7 @@
 }
 
 .intro-bottom{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .intro-links-wrap{
@@ -77,8 +90,9 @@
     grid-column: 1 / span 4;
 }
 
-.project-title{
-    grid-column: 1 / span 2;
+.project-title,
+.project-subject-intro{
+    grid-column: span 2;
 }
 
 .intro-desc{

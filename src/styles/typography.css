@@ -8,6 +8,7 @@ html {
     src: url('/assets/fonts/Geist-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -15,6 +16,7 @@ html {
     src: url('/assets/fonts/DMMono-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 
@@ -55,8 +57,8 @@ a:hover{
     color: blue;
 }
 
-.back-home-btn{
-    text-decoration: none;
+a:active{
+    opacity: 0.5;
 }
 
 .project-name,

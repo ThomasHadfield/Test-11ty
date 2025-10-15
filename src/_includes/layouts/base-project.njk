@@ -19,7 +19,9 @@
 
         <div class="wrapper">
             
-            {% include "layouts/header-project.njk" %}
+            {% include "layouts/header.njk" %}
+            {% include "layouts/intro-alt.njk" %}
+            {% include "layouts/project-info.njk" %}
 
             <!-- PORTFOLIO -->
             <section class="case-study">
@@ -28,14 +30,15 @@
 
             </section>
             
+            <section class="pre-footer">
+                <p class="back-btn">
+                    <a href="/">See More Projects</a>
+                </p>
+            </section>
+
             {% include "layouts/footer.njk" %}
 
         </div>
-
-
-
-        <!-- CURSOR -->
-        <div class="cursor"></div>
 
 
         <!-- Linked JS Files -->
