@@ -57,3 +57,5 @@ studioURL: https://www.kollektif.ca/
     <img loading="lazy" src="/assets/images/projects/factors/factors-byTH-vertical-image-11.webp" alt="">
     <img loading="lazy" src="/assets/images/projects/factors/factors-byTH-vertical-image-12.webp" alt="">
 </div>
+
+<img loading="lazy" src="/assets/images/projects/factors/factors-byTH-horizontal-image-13.webp" alt=" ">

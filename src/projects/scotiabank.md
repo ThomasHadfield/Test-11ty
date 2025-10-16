@@ -1,18 +1,11 @@
 ---
 
-date: 2025-01-01
+date: 2025-01-03
 
 title: Scotiabank
 subject: Brand System
 
-description: Monica is an interior designer from Toronto, Canada. A simple brand
-  identity was created to live beside and help showcase her work when being
-  presented within her portfolio. The new brand suits her clean style and
-  approach to interior design, where she trys to create spaces that engage and
-  incite interaction from its users. The logotype and layouts created are
-  modular and can be adapted to whatever medium she uses them in. A custom
-  website was created to help best showcase her work and to make sure she has a
-  strong brand image on the web.
+description: Scotiabank needed a rebrand that unified their global identity and appealed to a more affluent clientele. We started by establishing a consistent design system, drawing inspiration from their branch architecture, while thoughtfully referencing their heritage. To elevate their overall tone, we developed a sophisticated new approach to imagery, refined their colour palette, and worked with type foundry Dalton Maag to craft an elegant bespoke serif typeface. Proving that a consistent global rebrand can revitalize even a 193-year-old institution.
 
 heroImage: /assets/images/projects/scotiabank/SB_image_hero.webp
 heroImageAlt: phone in pocket of red coat, shaowing instagram story of bar chart
