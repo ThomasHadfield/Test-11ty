@@ -2,14 +2,14 @@
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
 }
 
 
 /* PROJECT */
 .project{
-    grid-column: span 4;
+    grid-column: span 2;
     margin-bottom: 60px;
 }
 
@@ -41,12 +41,12 @@
 /* TEXT */
 .project-title-wrap{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     margin-top: 4px;
 }
 
 .project-name,
 .project-subject{
-    grid-column: span 2;
+    grid-column: span 1;
 }

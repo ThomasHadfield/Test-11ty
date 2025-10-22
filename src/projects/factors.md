@@ -5,14 +5,8 @@ date: 2025-01-02
 title: Factors
 subject: Brand Identity & Website
 
-description: Monica is an interior designer from Toronto, Canada. A simple brand
-  identity was created to live beside and help showcase her work when being
-  presented within her portfolio. The new brand suits her clean style and
-  approach to interior design, where she trys to create spaces that engage and
-  incite interaction from its users. The logotype and layouts created are
-  modular and can be adapted to whatever medium she uses them in. A custom
-  website was created to help best showcase her work and to make sure she has a
-  strong brand image on the web.
+description: Factors is a performance training app for pro athletes and coaches, with a focus on track cycling. They needed a forward-looking identity and web presence to help grow their community and gain investor trust. Since track cycling is all about milliseconds and data, I wanted to bring a more human feel to the brand. Using art-directed black and white photography, a muted colour palette, and a bright pink accent, I built a visual language that balances precision with personality. The result feels technical yet approachable — a brand that moves fast but stays grounded.
+
 
 heroImage: /assets/images/projects/factors/factors-byTH-image-hero.webp
 heroImageAlt: black and white of cyclists with website navigation overlayed on top
