@@ -42,7 +42,8 @@ header{
 
 /* PAGE INTRO */
 
-.intro{
+.intro-home,
+.intro-alt{
     padding-top: 20px;
     height: 50vh;
 }
