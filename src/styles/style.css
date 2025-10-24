@@ -166,7 +166,11 @@ li{
     /* INTRO */
 
     .intro-home{
-        height: 75vh;
+        height: 65vh;
+    }
+
+    .intro-home{
+        height: 40vh;
     }
 
     .intro-links-wrap{
