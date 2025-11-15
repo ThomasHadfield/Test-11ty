@@ -46,30 +46,13 @@ header{
 .intro-alt{
     padding-top: 20px;
     height: 50vh;
-}
-
-.intro-home{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.intro-top{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
 }
 
-.intro-bottom{
-    padding-bottom: 20px;
-}
-
-.intro-links-wrap{
-    grid-column: span 2;  
-}
-
-.intro-bio-wrap{
-    grid-column: span 2;
+.intro-info-wrap{
+    grid-column: 3 / span 2;
 }
 
 

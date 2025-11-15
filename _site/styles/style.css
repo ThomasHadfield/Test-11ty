@@ -7,7 +7,7 @@
 @import "index-projects.css";
 @import "experiments.css";
 @import "case-study.css";
-@import "about.css";
+@import "info.css";
 @import "footer.css";
 
 
@@ -166,24 +166,16 @@ li{
     /* INTRO */
 
     .intro-home{
-        height: 75vh;
+        height: 50vh;
     }
 
-    .intro-links-wrap{
-        grid-column: span 4; 
-    }
-
-    .intro-bio-wrap{
+    .intro-info-wrap{
         grid-column: span 4;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     .intro-desc{
         grid-column: span 4;
-    }
-
-    .intro-bottom{
-        padding-bottom: 20px;
     }
 
 
@@ -239,17 +231,6 @@ li{
     /* body{
         background: lightcoral;
     } */
-
-
-    /* TYPOGRAPHY */
-
-    h1, 
-    h2,
-    #time,
-    h3 {
-        font-size: 1.4rem;
-        line-height: 1.4rem;
-    }
 
 
 

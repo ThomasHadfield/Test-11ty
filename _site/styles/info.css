@@ -2,24 +2,22 @@
 .about{
     display: flex;
     flex-direction: column;
-    row-gap: 60px;
+    row-gap: 100px;
 }
 
 
 .about-section{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
-    padding-top: 10px;
-    border-top: 1px solid #767676;
 }
 
-.about-sec-left,
-.about-sec-right{
-    grid-column: span 4;
+.about-sec-left{
+    grid-column: span 1;
 }
 
 .about-sec-right{
+    grid-column: span 2;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -27,10 +25,10 @@
 
 .about-sec-col{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
 }
 
 .about-sec-col p{
-    grid-column: span 2;
+    grid-column: span 1;
 }
